@@ -1,23 +1,21 @@
-/* body {
-    background-color: black;
-    margin-top: 200px;
-} */
-
-.zhans {
-    color:aqua;
-}
-
-a {
-    text-decoration: none;
+header {
+    background: linear-gradient(#009B05, #FFFA46)
 }
 
 ul {
-    margin: 0;  
     list-style: none;
+    margin-top: -10px;
+    padding-left: -10px;
 }
 
-.menu {
-    margin: 0;
-    list-style-type: none ;
-    background-color: wheat;
+a {
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+
+.navbar {
+    padding-left: 1000px;
 }
