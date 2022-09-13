@@ -1,21 +1,22 @@
 header {
-    background: linear-gradient(#009B05, #FFFA46)
+    background: black;
 }
 
-ul {
-    list-style: none;
-    margin-top: -10px;
-    padding-left: -10px;
-}
+
+
 
 a {
     font-size: 30px;
-    font-style: oblique;
+    font-style: normal;
     text-decoration: none;
-    margin: 20px;
-    color: black;
+    color: white; 
+    padding: 30px;
 }
 
-.navbar {
-    padding-left: 1000px;
+div.nav {
+    padding-left:800px;
+}
+
+nav.menu {
+    padding-top: 10px;
 }
