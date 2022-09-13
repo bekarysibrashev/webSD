@@ -6,3 +6,18 @@
 .zhans {
     color:aqua;
 }
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;  
+    list-style: none;
+}
+
+.menu {
+    margin: 0;
+    list-style-type: none ;
+    background-color: wheat;
+}
