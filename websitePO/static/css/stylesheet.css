@@ -20,3 +20,10 @@ header {
     color: white; 
     padding: 30px;
 } */
+
+#bg{
+    background-size: 1800px 900px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
