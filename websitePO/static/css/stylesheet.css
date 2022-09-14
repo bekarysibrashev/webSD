@@ -1,22 +1,17 @@
 header {
     background: black;
+    width:98%;
+    float:left;
+    padding: 1%;
 }
 
 
 
 
-a {
+/* a {
     font-size: 30px;
     font-style: normal;
     text-decoration: none;
     color: white; 
     padding: 30px;
-}
-
-div.nav {
-    padding-left:800px;
-}
-
-nav.menu {
-    padding-top: 10px;
-}
+} */
