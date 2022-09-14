@@ -30,3 +30,10 @@ header #part {
 header #site {
     padding-left: 100px;
 }
+
+#bg{
+    background-size: 1800px 900px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
