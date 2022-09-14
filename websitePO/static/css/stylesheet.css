@@ -4,19 +4,29 @@
 }
 
 header {
-    background: black;
+    background: rgb(125, 76, 168);
     width:98%;
     float:left;
     padding: 1%;
+    border-bottom: 2px solid black;
 }
 
 
 
 
-/* a {
+a {
     font-size: 30px;
     font-style: normal;
     text-decoration: none;
     color: white; 
-    padding: 30px;
-} */
+    padding: 30px; 
+    /* padding-left: 1000px;/ */
+}
+
+header #part {
+    padding-left: 1000px;
+}
+
+header #site {
+    padding-left: 100px;
+}
