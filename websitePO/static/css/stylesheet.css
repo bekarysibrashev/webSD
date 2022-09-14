@@ -32,8 +32,11 @@ header #site {
 }
 
 #bg{
-    background-size: 1800px 900px;
+    background-size: 1900px 1100px;
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
 }
