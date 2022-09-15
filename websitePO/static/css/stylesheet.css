@@ -1,42 +1,39 @@
 * {
-    margin:0 ;
-    padding:0 ;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background: rgb(125, 76, 168);
-    width:98%;
-    float:left;
-    padding: 1%;
-    border-bottom: 2px solid black;
+    background: rgb(28, 36, 54);
+    height: 80px;
+    border-bottom: 1px solid black;
+
 }
-
-
-
 
 a {
-    font-size: 30px;
-    font-style: normal;
     text-decoration: none;
-    color: white; 
-    padding: 30px; 
-    /* padding-left: 1000px;/ */
+    color: white;
+    display: inline;
+    font-size: 30px;
+    margin: 10px;
+    padding-left: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-header #part {
-    padding-left: 1000px;
+div.navbar { 
+    position: relative;
+    left: 800px;
+    padding-top: 10px;
+    /* float: right; */
 }
 
-header #site {
-    padding-left: 100px;
+div.icon {
+    height: 0;
+    padding-top: 10px;
 }
 
-#bg{
-    background-size: 1900px 1100px;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    height: 100%;
+#micon {
+    float: left;
+    padding-left: 20px;
+    padding-top: 7px;
 }
