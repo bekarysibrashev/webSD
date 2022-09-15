@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-image: url();
+}
+
 header {
     background: rgb(28, 36, 54);
     height: 80px;
@@ -23,7 +27,8 @@ a {
 div.navbar { 
     position: relative;
     left: 800px;
-    padding-top: 10px;
+    width: 40%;
+    top: -20px;
     /* float: right; */
 }
 
@@ -36,4 +41,4 @@ div.icon {
     float: left;
     padding-left: 20px;
     padding-top: 7px;
-}
+}   
