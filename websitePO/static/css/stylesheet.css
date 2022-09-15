@@ -3,9 +3,12 @@
     padding: 0;
 }
 
-body {
-    background-image: url();
-}
+#bg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  
 
 header {
     background: rgb(28, 36, 54);
@@ -42,3 +45,4 @@ div.icon {
     padding-left: 20px;
     padding-top: 7px;
 }   
+
