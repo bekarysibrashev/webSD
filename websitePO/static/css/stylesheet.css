@@ -43,7 +43,7 @@ a {
 div.navbar { 
     position: relative;
     left: 800px;
-    width: 40%;
+    width: 50%;
     top: -20px;
     /* float: right; */
 }
