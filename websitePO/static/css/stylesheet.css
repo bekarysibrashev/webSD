@@ -5,6 +5,7 @@
 
 body {
     background-image: url();
+    width: 100%;
 }
 
 #page {
@@ -28,21 +29,22 @@ a {
     display: inline;
     font-size: 30px;
     margin: 10px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 div.navbar { 
     position: relative;
-    left: 800px;
-    width: 50%;
-    top: -20px;
-    /* float: right; */
+    left: 600px;
+    width: 900px;
+    top: -10px;
 }
 
 div.icon {
+    margin: 0;
     height: 0;
     padding-top: 10px;
+    width: fit-content;
 }
 
 #micon {
@@ -50,3 +52,4 @@ div.icon {
     padding-left: 20px;
     padding-top: 7px;
 }   
+
