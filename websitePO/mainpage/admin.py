@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import Participance
 
-# Register your models here.
+admin.site.register(Participance)

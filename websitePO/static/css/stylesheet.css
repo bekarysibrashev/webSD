@@ -7,14 +7,6 @@ body {
     background-image: url();
 }
 
-/* #page {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-# */
-
 #page {
     position: relative;
     padding-top:100px;
