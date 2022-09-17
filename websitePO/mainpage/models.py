@@ -10,3 +10,10 @@ class Participance(models.Model):
 
     def __str__(self):
         return self.name
+
+class News(models.Model):
+    topic = models.CharField("Зголовок", max_length=50)
+    news = models.TextField("Новость")
+
+    def __str__(self):
+        return self.topic
