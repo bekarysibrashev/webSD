@@ -8,4 +8,5 @@ class Participance(models.Model):
     age = models.IntegerField("Возраст")
     bio = models.TextField("Биография")
 
- 
+    def __str__(self):
+        return self.name

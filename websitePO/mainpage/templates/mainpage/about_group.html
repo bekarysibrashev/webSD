@@ -1,3 +1,16 @@
 {% extends 'mainpage/base.html' %}
 
 {% block title %} Участники {% endblock %}
+
+{% block groupmates %}
+
+    {% for el in people %}
+        <div class="alert alert-warning mt-2">
+            <h2>{{ el.name }}</h2>
+            <p>Возраст:{{ el.age }}</p>
+            <p>{{ el.bio }}</p>
+        </div>
+        
+    
+    {% endfor %} 
+{% endblock %}
