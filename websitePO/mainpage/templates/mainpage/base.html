@@ -25,6 +25,7 @@
 }
 </style>
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{% static 'css/stylesheet.css' %}">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="text/html">
@@ -35,14 +36,13 @@
     <header> 
         <a href="/"><img id="micon" src={% static "img/mainicon.png" %} width="70" height="70"></a>
         <div class="navbar">   
-            <img src={% static "img/ic1.png" %} width="30" height="30">
             <a href="/about_group">Участники</a>
             <a href="https://apec.edu.kz">APEC PetroTechnic</a>
             <a href="https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRzEq9hgKslOH5WHXfLeDIGNndO9KKCnoDakpKaJNyKOcmi4pCosKGuAfBFkUyTXQ/pubhtml">Расписание</a>
         </div>
     </header> 
     {% block background %} {% endblock %}
-    
+    {% block groupmates %} {% endblock %}
 </body>
 </html> 
 
