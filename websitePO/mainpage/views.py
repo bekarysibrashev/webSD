@@ -10,3 +10,8 @@ def about_group(request):
     people = Participance.objects.all()
     return render(request, 'mainpage/about_group.html', {'people' : people})
     
+def test(request):
+    return render(request, 'mainpage/test.html')
+
+def dev(request):
+    return render(request, 'mainpage/developers.html')

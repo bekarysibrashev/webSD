@@ -1,14 +1,3 @@
-{% extends 'mainpage/base.html' %}
-
-{% load static %}
-
-{% block title %} Участники {% endblock %}
-
-{% block info %}
-<a id="link to joke" href="about_group/test"> OPEN ME </a>
-<a id="link to joke" href="about_group/developers"> ONLY DEVELOPERS PAGE!!! </a>
-{% endblock %}
-
 {% block groupmates %} 
 
     {% for el in people %}
