@@ -131,7 +131,7 @@ text-decoration: none;
 color: #ffffff; /* Цвет посещённой ссылки */
 } 
 a.wolf:hover {
-color: #c7c7ff; /* Цвет ссылки при наведении на нее курсора мыши */  
+color: #151552; /* Цвет ссылки при наведении на нее курсора мыши */  
 text-decoration:dashed; /* Добавляем подчеркивание */
 }
 
@@ -140,6 +140,12 @@ text-decoration:dashed; /* Добавляем подчеркивание */
     color:#1fc01f;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
+
+.green:hover {
+    color:#23527C;
+    text-decoration:none
+}
+
 
 
 /* Cтили для выдвижного МЕНЮ */
