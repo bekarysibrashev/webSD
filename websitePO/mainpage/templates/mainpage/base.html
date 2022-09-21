@@ -36,10 +36,18 @@
 
 <body>
     <header> 
-        <a href="/"><img id="micon" src={% static "img/mainicon.png" %} width="70" height="70"></a>
+        <div class="icons">
+            <a href="/"><img id="micon" src={% static "img/mainicon.png" %} width="70" height="70"></a>
+            <div class="dropdown-content">
+            <a id="inst" href="https://instagram.com/po1_21apec?igshid=YmMyMTA2M2Y="><img id="micon" src={% static "img/insicon.png" %} width="80" height="70"></a>
+            </div>   
+                
+        
+        </div>
+           
         <div class="navbar">   
             <a href="/about_group">Участники</a>
-            <a href="https://apec.edu.kz">APEC PetroTechnic</a>
+            <a href="https://apec.edu.kz"><span class="green">APEC</span> PetroTechnic</a>
             <a href="https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRzEq9hgKslOH5WHXfLeDIGNndO9KKCnoDakpKaJNyKOcmi4pCosKGuAfBFkUyTXQ/pubhtml">Расписание</a>
         </div>
     </header> 

@@ -4,8 +4,22 @@
 }
 
 body {
-    background-image: url();
+    background-color: rgb(223, 233, 255);
     width: 100%;
+
+}
+
+.bord {
+    position: relative;
+    width: 70%;
+    left:240px;
+    top: 100px;
+}
+
+
+.testpage {
+    position: relative;
+    top: 100px;
 }
 
 #page {
@@ -23,6 +37,46 @@ header {
 }
 
 
+
+
+.test {
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 500px;
+}
+
+.tes {
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 500px;
+}
+
+.testt {
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 500px;
+}
+div.aaa {
+    width: 10px;
+    height: 40px;
+}
+
+
+.contacts {
+    padding: 0;
+    margin: 0;
+    width: 10px;
+    height: 10px;
+    position: relative;
+
+
+}
 
 a {
     text-decoration: none;
@@ -74,12 +128,66 @@ text-decoration: none; /* Убираем подчеркивание у ссыл�
 }
 a.wolf:visited {
 text-decoration: none;
-color: #adc6ed; /* Цвет посещённой ссылки */
+color: #ffffff; /* Цвет посещённой ссылки */
 } 
 a.wolf:hover {
 color: #c7c7ff; /* Цвет ссылки при наведении на нее курсора мыши */  
 text-decoration:dashed; /* Добавляем подчеркивание */
 }
+
+
+.green {
+    color:#1fc01f;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+
+/* Cтили для выдвижного МЕНЮ */
+
+.dropbtn {
+    background-color: rgb(111, 131, 179);;
+    color: rgb(198, 17, 17);
+    padding: 16px;
+    font-size: 26px;
+    border: none;
+    width: 200px;
+    font-family: Trattatello, fantasy ;
+  }
+  
+
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(28, 36, 54);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Показать выпадающее меню при наведении курсора */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 
 
 

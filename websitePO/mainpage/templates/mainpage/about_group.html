@@ -5,21 +5,29 @@
 {% block title %} Участники {% endblock %}
 
 {% block info %}
-<div class="window">
-    <a class="wolf" href="about_group/test"> OPEN ME </a>
-    <a class="wolf" href="about_group/developers"> ONLY DEVELOPERS PAGE!!! </a>
+<div class="dropdown">
+    <button class="dropbtn">Выпадающее</button>
+    <div class="dropdown-content">
+        <a class="wolf" href="about_group/test"> OPEN ME </a>
+        <a class="wolf" href="about_group/developers"> ONLY DEVELOPERS PAGE!!! </a>
+    </div>
 </div>
+    <!-- <div class="window">
+        <a class="wolf" href="about_group/test"> OPEN ME </a>
+        <a class="wolf" href="about_group/developers"> ONLY DEVELOPERS PAGE!!! </a>
+    </div> -->
 {% endblock %}
 
 {% block groupmates %} 
 
     {% for el in people %}
-        <div class="alert alert-warning mt-2">
-            <h1>{{ el.name }}</h1>
-            
-            <p>Возраст:{{ el.age }}</p>
-            <p>{{ el.bio }}</p>
-            
+        <div class="bord">
+            <div class="alert alert-warning mt-2">
+                <h1>{{ el.name }}</h1>
+                
+                <p>Возраст:{{ el.age }}</p>
+                <p>{{ el.bio }}</p>
+        </div>
         </div>
         
     
